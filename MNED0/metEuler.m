@@ -32,7 +32,7 @@ function y = metEuler (f, h, a, ya, N)
   x(1) = a;
   y(1) = ya;
   
-  for i=1:N+1
+  for i=1:N
     x(i+1) = x(i) + h;
     y(i+1) = y(i) + h * f(x(i), y(i));
   end
