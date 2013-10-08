@@ -1,7 +1,7 @@
 function y = metEuler_ha (f, h, a, ya, N)
 % Aproximação da solução de um sistema de PVI pelo método de Euler.
 %
-% y = metEuler (f, h, a, ya, N)
+% y = metEuler_ha (f, h, a, ya, N)
 %
 % Calcula uma aproximação para a solução y = [y_1, y_2, ..., y_i] de
 % um sistema de problemas de valores iniciais (PVI)
