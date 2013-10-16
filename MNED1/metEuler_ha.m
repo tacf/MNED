@@ -6,7 +6,7 @@ function y = metEuler_ha (f, h, a, ya, N)
 % Calcula uma aproximação para a solução y = [y_1, y_2, ..., y_i] de
 % um sistema de problemas de valores iniciais (PVI)
 %
-%    y'   = F(x, y)
+%    y'   = f(x, y)
 %    y(a) = [y_1(a), y_2(a), ..., y_i(a)]
 %
 % com x a variar entre a, a+h, a+2h, ..., a+N*h.
@@ -55,9 +55,7 @@ function y = metEuler_ha (f, h, a, ya, N)
 
   % Permitir que z(a) seja dado tanto por um vector linha como por um
   % vector coluna.
-  if (1 == size(ya,1))
-     ya = ya';
-  end
+  ya = ya(:);
 
   x(1)   = a;
   y(1,:) = ya;
