@@ -14,3 +14,11 @@ MNED1
 -----
 
   - Método de Euler para sistemas de equações de 1ª ordem (`metEuler_ab.m` e `metEuler_ha.m`)
+
+
+MNED2
+-----
+
+  - Método de Runge-Kutta em função do quadro de Butcher (`RungeKutta.m`, `ToButcher.m` e `FromButcher.m`)
+  - Exemplos de métodos de Runge-Kutta de 2ª e 4ª ordem (`metRK2.m` e `metRK4.m`)
+
